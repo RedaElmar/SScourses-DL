@@ -1,3 +1,4 @@
+import sys, os
 from loader import Downloader, splash
 def main():
     dl = Downloader(cookie=sys.argv[2])
