@@ -1,4 +1,4 @@
-from loader import Downloader
+from loader import Downloader, splash
 def main():
     dl = Downloader(cookie=cookie)
     course_url = sys.argv[1]
